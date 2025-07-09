@@ -11,35 +11,17 @@
 				"type": "constructor"
 			},
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "title1",
-						"type": "string"
-					},
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "admin",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "title2",
-						"type": "string"
-					},
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "owner",
+						"internalType": "contract IBank",
+						"name": "bank",
 						"type": "address"
 					}
 				],
-				"name": "Log",
-				"type": "event"
+				"name": "adminWithdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -56,9 +38,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "showBanalan",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -79,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"IBank.sol": "Bank"
+			"IBank.sol": "Admin"
 		},
 		"evmVersion": "london",
 		"libraries": {},
