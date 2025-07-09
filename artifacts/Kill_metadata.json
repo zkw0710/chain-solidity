@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testCall",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "自毁合约",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Kill.sol": "Kill"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Kill.sol": {
+			"keccak256": "0x3fb5e48afae0a27ecc1f470f90c23ca0c339290228e8e38eb33938fed8f9fefb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ac219ffc7b088d5522af0800b7429169e432c9668d0e1c5c93683a9b7c52e498",
+				"dweb:/ipfs/QmNvVhDGycnVSQikXLQPzsjnxs4xBN7vLsdfbWeJqwW6yQ"
+			]
+		}
+	},
+	"version": 1
+}

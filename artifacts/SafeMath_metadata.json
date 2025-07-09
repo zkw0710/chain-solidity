@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Unauthorized",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SafeMath.sol": "SafeMath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SafeMath.sol": {
+			"keccak256": "0xde65bfad8e7aaa260b89614614f101672af153982ac9a09c6ae45f27de0f5a03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://45324561ed8c4309f351bd077c7cc30769338ad84b34cd523ea9d4a0bd387cfa",
+				"dweb:/ipfs/QmXVe7MY5dqR25QCGHrhLK4ctTwVfVw2DKQJ9PpUyfkV9E"
+			]
+		}
+	},
+	"version": 1
+}
