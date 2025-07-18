@@ -5,15 +5,14 @@ import "./testBasicERC20.sol";
 
 contract TokenBank {
 
-     BaseERC20 private erc20;
+     BaseERC20 public erc20;
 
      // 记录每个用户的存款数量
      mapping(address => uint256) public deposits;
 
-     constructor(){
-        erc20 = new BaseERC20();
+     constructor(address _address){
+        erc20 =  BaseERC20(_address);
      }
-
 
      //需要记录每个地址的存入数量；
      function deposit(uint256 _value) public {
@@ -30,4 +29,8 @@ contract TokenBank {
         require(success,"Transfer failed");
         deposits[msg.sender] -= _value;
      }
+
+      function totalBankBalance() external view returns (uint256) {
+        return erc20.balanceOf(address(this));
+      }
 }
